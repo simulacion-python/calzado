@@ -1,0 +1,2 @@
+simpy>=4
+importlib-metadata<5.0

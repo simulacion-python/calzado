@@ -1,0 +1,1 @@
+![Tests](https://github.com/simulacion-python/calzado/actions/workflows/tests.yml/badge.svg)

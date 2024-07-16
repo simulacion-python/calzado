@@ -1,12 +1,10 @@
-from simulacioncalzado.hiperparametros import Hiperparametros
+from tmp.main import main
 import pytest
 
-hiperparmetros = Hiperparametros()
 
+def test_main():
 
-def test_hiperparametros():
-
-    assert hiperparmetros.intervalo_cambio_orden == 1
+    assert main() == 123
 
 
 @pytest.mark.xfail
